@@ -1,10 +1,19 @@
 
-.logo1{
-	float: left;
+header{
+	border: 1px solid #000000;
+	padding: 1em;
+}
+
+img{
+	/*padding: 1em;*/
+}
+
+.logo2{
+	
 }
 
 .logo3{
-	float: right;
+	
 	-webkit-animation: spinLogo 3s linear infinite alternate;
 }
 
