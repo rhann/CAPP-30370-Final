@@ -1,29 +1,29 @@
 
-header{
-	border: 1px solid #000000;
-	padding: 1em;
-}
+
+.brandbar {text-align:center; background-color: #333; padding: 1em;}
+		.brandbar a{color:#fff; clear: none}
+.titlebar {padding:20px; background-color: #FFFFFF;}
+		.site-title  {text-align: center; font-size:2em;}
+nav ul {margin:0; padding:0; list-style: none;}
 
 body{
-	background-image:url('NDBackground.jpg');
-	
+	/*background-image:url('NDBackground3.jpg');*/
+	margin: 0em;
 }
 p{
 	border: 1px solid #000000;
 	padding: 1em;
-	margin: 1em;
+	background-color: #ffffff;
 }
 
 img{
 	/*padding: 1em;*/
 }
 
-.logo2{
-	
-}
 
-.logo3{
-	
+
+.logo{
+	float: right;
 	-webkit-animation: spinLogo 3s linear infinite alternate;
 }
 
@@ -32,3 +32,10 @@ img{
 	100% {-webkit-transform: rotateY(0deg);}
 	
 }
+
+@media only screen and (min-width:700px) {
+	.brandbar {overflow:hidden;}
+		.dept-nd {float:left;}
+		.dept {display:block; float: right;}
+		
+		}
