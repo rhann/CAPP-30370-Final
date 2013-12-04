@@ -1,5 +1,9 @@
 
-.logo{
+.logo1{
+	float: left;
+}
+
+.logo3{
 	float: right;
 	-webkit-animation: spinLogo 3s linear infinite alternate;
 }
