@@ -4,6 +4,16 @@ header{
 	padding: 1em;
 }
 
+body{
+	background-image:url('NDBackground.jpg');
+	
+}
+p{
+	border: 1px solid #000000;
+	padding: 1em;
+	margin: 1em;
+}
+
 img{
 	/*padding: 1em;*/
 }
