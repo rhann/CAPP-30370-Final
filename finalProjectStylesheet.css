@@ -1,14 +1,16 @@
 
 
-.brandbar {text-align:center; background-color: #333; padding: 1em;}
+.brandbar {text-align:center; background-color: #333; margin: 1em 0em 0em;}
 		.brandbar a{color:#fff; clear: none}
-.page{padding:1em;}
-.titlebar {padding:20px; background-color: #FFFFFF;}
+.page{padding:.5em;background-color: #C0C0C0; border-radius: 6px; margin: .5em; }
+.titlebar {padding:1em; background-color: #FFFFFF; margin: 1em 0em 0em;}
 		.site-title  {text-align: center; font-size:2em;}
 nav ul {margin:0; padding:0; list-style: none;}
 
 body{
-	/*background-image:url('NDBackground3.jpg');*/
+	background-image:url('NDBackground2.jpg');
+	background-repeat: no-repeat;
+	background-position: right top;
 	margin: 0em;
 }
 p{
@@ -34,7 +36,7 @@ img{
 	
 }
 
-@media only screen and (min-width:700px) {
+@media only screen and (min-width:300px) {
 	.brandbar {overflow:hidden;}
 		.pageND {float:left;}
 		.page1 {display:block; float: right;}
