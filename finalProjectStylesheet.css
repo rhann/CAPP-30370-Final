@@ -1,5 +1,5 @@
 
-
+@media screen{
 .brandbar {text-align:center; background-color: #333; margin: 1em 0em 0em;}
 		.brandbar a{color:#fff; clear: none}
 .tab{margin: .5em; }
@@ -19,12 +19,8 @@ p{
 	padding: 1em;
 	background-color: #ffffff;
 }
-
-img{
-	/*padding: 1em;*/
-}
-
-
+.photoreel { float: right; padding:1em; margin: 1em; background-color:#ddd; border: 1px solid #000000;}
+.left{ float: left; width: 30%; padding:1em; margin: 1em; background-color:#ddd; border: 1px solid #000000;}
 
 .logo{
 	float: right;
@@ -36,12 +32,17 @@ img{
 	100% {-webkit-transform: rotateY(0deg);}
 	
 }
+}
 
-@media only screen and (min-width:300px) {
+@media only screen and (min-width:700px) {
 	.brandbar {overflow:hidden;}
 		.pageSO {float:left;}
 		.page1 {display:block; float: right;}
 		.page2 {display:block; float: right;}
 		.page3 {display:block; float: right;}
-		
-		}
+}
+
+@media only screen and (min-width:1000px) {
+
+}
+
