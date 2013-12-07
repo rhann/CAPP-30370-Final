@@ -2,8 +2,9 @@
 
 .brandbar {text-align:center; background-color: #333; margin: 1em 0em 0em;}
 		.brandbar a{color:#fff; clear: none}
-.page{padding:.5em;background-color: #C0C0C0; border-radius: 6px; margin: .5em; }
-.titlebar {padding:1em; background-color: #FFFFFF; margin: 1em 0em 0em;}
+.tab{margin: .5em; }
+
+.titlebar { padding:.5em; background-color: #333; color: #fff; margin: 1em 0em 0em;}
 		.site-title  {text-align: center; font-size:2em;}
 nav ul {margin:0; padding:0; list-style: none;}
 
@@ -38,7 +39,7 @@ img{
 
 @media only screen and (min-width:300px) {
 	.brandbar {overflow:hidden;}
-		.pageND {float:left;}
+		.pageSO {float:left;}
 		.page1 {display:block; float: right;}
 		.page2 {display:block; float: right;}
 		.page3 {display:block; float: right;}
