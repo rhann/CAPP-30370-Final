@@ -9,9 +9,10 @@
 
 
 		
-.photoreel { box-shadow:4px 4px 4px red; margin: 1em 0em 0em; float: left; width: 100%; background-color:#ddd; border: 1px solid #000000;}
 
-.topleft {float: left; width: 100%}
+.topleft {float: left; width: 100%;}
+.topMid {  float: left; width: 100%; background-color:rgba(255,255,255,0.5); border: 1px solid #000000;}
+.topRight{float: right; width: 100%;  background-color:#ddd; border: 1px solid #000000;}
 
 nav ul {margin:0; padding:0; list-style: none;}
 
@@ -22,7 +23,7 @@ body{
 	margin: 1em;
 }
 
-.left{ float: left; margin: 1em 0em 0em; width: 100%; background-color:#ddd; border: 1px solid #000000; clear: both}
+.left{ float: left; width: 100%; background-color:#ddd; border: 1px solid #000000; clear: both}
 
 img{max-width:100%}
 
@@ -45,9 +46,10 @@ img{max-width:100%}
 	.brandbar {overflow:hidden;}
 		.pageSO {float:left;}
 		.tab {display:block; float: right;}
-	.photoreel{width: 35%; float: right; }
 	
-	.topleft{width:35%;}
+	.topleft{width:33%;}
+	.topMid{width: 33%;}
+	.topRight{width:34%;}
 	
 	.lower{width:100%; float:left;}
 	.article{width:33%; float:left;}
