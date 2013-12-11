@@ -2,13 +2,17 @@
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 
 @media screen{
+
 	body{background-color: #002b5c; margin:0em;}
+	img{max-width:100%; vertical-align: top}
+	footer{ padding: .5em 1em 1em; float: left; clear: both; width:100%; background-color: #d9d9d9;  }
+	
 	.titleBar {width:100%; background-color: #dfba45; color: #002b5c; padding: 1em 0em 1em;margin:1em 0em 0em; }
 		.site-title  {text-align: center; font-size:2em;}
-
+		
 	.picReel{margin: 1em 1em 0em; padding:5px; float: left; background-color:#d9d9d9; width: 90%; border: 1px solid #000000; padding: 0em;}
 
-	.navButtons {float: left; width: 100%; clear:both; margin:0em 0em 1em;}
+	.navButtons {float: left; width: 100%;  margin:0em 0em 1em;}
 		.btn{ margin: 1em 1em 0em; float: left; width: 90%;color:#002b5c; background-color:#e8cb69; border: 1px solid #000000; clear: both}
 
 	.oath {margin: 0em 1em .5em; float: left; width: 90%; background-color:rgba(255,255,255,0.5); border: 1px solid #000000;}
@@ -16,12 +20,10 @@
 	.content{color: #002b5c; background-color: #d9d9d9; clear:both; padding: 1em;}
 		.article{border-bottom:1px solid black;}
 		.article p {color: black;}
-
-	footer{ float: left; clear: both; width:100%; background-color: #d9d9d9;  }
-
-	img{max-width:100%; vertical-align: top}
-
-	.logo{-webkit-animation: spinLogo 3s linear infinite alternate;}
+		.article4{display: none;}
+		
+	.footerText{float:left;}
+	.logo{ margin: 0em 1em 0em; float:right; -webkit-animation: spinLogo 3s linear infinite alternate;}
 
 	@-webkit-keyframes spinLogo {
 		0% {-webkit-transform: rotateY(180deg);}
@@ -29,29 +31,27 @@
 	}
 }
 
-@media only screen and (min-width:700px) {
-.picReel{float: right; width: 100%;  background-color:#ddd; border: 1px solid #000000;}
+@media only screen and (min-width:600px) {
 
-nav ul {margin:0; padding:0; list-style: none;}
-
-
-body{
-	background-image:url('http://www3.nd.edu/~rhann/capp/CAPP-30370-Final//images/NDBackground2.jpg');
-	background-repeat: no-repeat;
-	background-position: right top;
-	margin: 1em;
-}
+	body{
+		background-image:url('http://www3.nd.edu/~rhann/capp/CAPP-30370-Final//images/NDBackground2.jpg');
+		background-repeat: no-repeat;
+		background-position: right top;
+	}
 	
-	
-	.navButtons{width:30%; margin: 1em 0em 0em;}
-	.oath{width: 33%; float: right; margin: 1em 0em 0em;}
-	.picReel{width:33%; float: right; margin: 1em 0em 0em;}
+	.oath{display: none;}
+	.picReel{margin: 3em 2em 2em; float: right; width: 35%;  background-color:#ddd; border: 1px solid #000000;}
+	.navButtons{width:42%; margin: 2em 1em 2em;}
 	
 	.content{width:100%; float:left;}
-	.article{width:33%; float:left;}
+	.article{margin:0em 1em 0em; width:42%; float:left;}
+		.article4{display: block;}
 	}
 
 @media only screen and (min-width:1000px) {
 	
+	.navButtons{margin: 4em 1em 2em;}
+	.article{width:30%;}
+
 }
 
