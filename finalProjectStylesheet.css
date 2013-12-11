@@ -1,55 +1,53 @@
 @viewport {width:device-width; zoom:1;}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 
 @media screen{
-
-.brandbar{display:none}
-.titlebar {width:100%; background-color: #333; color: #fff; padding: 1em 0em 1em;margin:1em 0em 1em; }
+	body{background-color: #002b5c; margin:0em;}
+	.titleBar {width:100%; background-color: #dfba45; color: #002b5c; padding: 1em 0em 1em;margin:1em 0em 0em; }
 		.site-title  {text-align: center; font-size:2em;}
-.topleft {float: left; width: 100%; clear:both; margin:0em 0em 1em;}
-	.left{ float: left; width: 100%; background-color:#ddd; border: 1px solid #000000; clear: both}
-	.left2{margin: 1em 0em 1em;}
-.topMid {margin: 0em 0em 1em; float: left; width: 100%; background-color:rgba(255,255,255,0.5); border: 1px solid #000000;}
-.topRight{display:none}
 
-.lower{clear:both;}
+	.picReel{margin: 1em 1em 0em; padding:5px; float: left; background-color:#d9d9d9; width: 90%; border: 1px solid #000000; padding: 0em;}
 
-img{max-width:100%}
+	.navButtons {float: left; width: 100%; clear:both; margin:0em 0em 1em;}
+		.btn{ margin: 1em 1em 0em; float: left; width: 90%;color:#002b5c; background-color:#e8cb69; border: 1px solid #000000; clear: both}
 
-.logo{
-	-webkit-animation: spinLogo 3s linear infinite alternate;
-}
+	.oath {margin: 0em 1em .5em; float: left; width: 90%; background-color:rgba(255,255,255,0.5); border: 1px solid #000000;}
 
-@-webkit-keyframes spinLogo {
-	0% {-webkit-transform: rotateY(180deg);}
-	100% {-webkit-transform: rotateY(0deg);}
-	
-}
+	.content{color: #002b5c; background-color: #d9d9d9; clear:both; padding: 1em;}
+		.article{border-bottom:1px solid black;}
+		.article p {color: black;}
+
+	footer{ float: left; clear: both; width:100%; background-color: #d9d9d9;  }
+
+	img{max-width:100%; vertical-align: top}
+
+	.logo{-webkit-animation: spinLogo 3s linear infinite alternate;}
+
+	@-webkit-keyframes spinLogo {
+		0% {-webkit-transform: rotateY(180deg);}
+		100% {-webkit-transform: rotateY(0deg);}
+	}
 }
 
 @media only screen and (min-width:700px) {
-.topRight{display:inline; float: right; width: 100%;  background-color:#ddd; border: 1px solid #000000;}
+.picReel{float: right; width: 100%;  background-color:#ddd; border: 1px solid #000000;}
 
 nav ul {margin:0; padding:0; list-style: none;}
 
 
 body{
-	background-image:url('NDBackground2.jpg');
+	background-image:url('http://www3.nd.edu/~rhann/capp/CAPP-30370-Final//images/NDBackground2.jpg');
 	background-repeat: no-repeat;
 	background-position: right top;
 	margin: 1em;
 }
-	.brandbar {display: inline; text-align:center; background-color: #333; margin: 1em 0em 0em; overflow:hidden;}
-		.brandbar a{color:#fff; clear: none}
-	.tab{margin: .5em; }
-
-		.pageSO {float:left;}
-		.tab {display:block; float: right;}
 	
-	.topleft{width:30%; margin: 1em 0em 0em;}
-	.topMid{width: 33%; float: right; margin: 1em 0em 0em;}
-	.topRight{width:33%; float: right; margin: 1em 0em 0em;}
 	
-	.lower{width:100%; float:left;}
+	.navButtons{width:30%; margin: 1em 0em 0em;}
+	.oath{width: 33%; float: right; margin: 1em 0em 0em;}
+	.picReel{width:33%; float: right; margin: 1em 0em 0em;}
+	
+	.content{width:100%; float:left;}
 	.article{width:33%; float:left;}
 	}
 
