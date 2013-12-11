@@ -6,15 +6,15 @@
 	body{background-color: #002b5c; margin:0em;}
 	img{max-width:100%; vertical-align: top}
 	footer{ padding: .5em 1em 1em; float: left; clear: both; width:100%; background-color: #d9d9d9;  }
-	
-	.titleBar {width:100%; background-color: #dfba45; color: #002b5c; padding: 1em 0em 1em;margin:1em 0em 0em; }
+	a{text-decoration:none;}
+	.titleBar {width:100%; background-color: #dfba45; color: #002b5c; padding: .5em 0em .5em;margin:1em 0em 0em; }
 		.site-title  {text-align: center; font-size:2em;}
 		
 	.picReel{margin: 1em 1em 0em; padding:5px; float: left; background-color:#d9d9d9; width: 90%; border: 1px solid #000000; padding: 0em;}
 
 	.navButtons {float: left; width: 100%;  margin:0em 0em 1em;}
-		.btn{ margin: 1em 1em 0em; float: left; width: 90%;color:#002b5c; background-color:#e8cb69; border: 1px solid #000000; clear: both}
-
+		.btn{ margin: 1em 1em 0em; float: left; width: 90%;color:#002b5c; background-color:#e8cb69; border: 4px solid #336600; clear: both}
+		.btn:hover{-webkit-animation:blink 1s infinite;}
 	.oath {margin: 0em 1em .5em; float: left; width: 90%; background-color:rgba(255,255,255,0.5); border: 1px solid #000000;}
 
 	.content{color: #002b5c; background-color: #d9d9d9; clear:both; padding: 1em;}
@@ -29,6 +29,11 @@
 		0% {-webkit-transform: rotateY(180deg);}
 		100% {-webkit-transform: rotateY(0deg);}
 	}
+	@-webkit-keyframes blink {
+	 0%{color:#e8cb69; background-color:#336600;border: 4px solid #002b5c;}
+	100%{color:#e8cb69; background-color:#336600;border: 4px solid #002b5c;}
+	
+     }
 }
 
 @media only screen and (min-width:600px) {
