@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="The mission of Special Olympics Notre Dame is to activate Notre Dame students to the Special Olympics movement of dignity, acceptance, and fun for people with intellectual disabilities through the vehicle of sport.">
 	<link href="homeStylesheet.css" rel="stylesheet">
-	<title>ND Special Olympics</title>
+	<title>- Get Involved! - ND Special Olympics  </title>
 	
 	<!-- Flexslider CSS and JS -->
 	<link rel="stylesheet" href="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/flex/css/flexslider.css" type="text/css">
@@ -18,52 +18,37 @@
  <body>
 	<header>
 		<div class="titleBar ">
-			<h1 class="site-title">Notre Dame Special Olympics</h1>
+			<h1 class="site-title">Notre Dame Special Olympics - Get Involved</h1>
 		</div>
 	</header>
 	
-	<!-- Load the flexslider -->
-	<script type="text/javascript" charset="utf-8">
-		$(window).load(function() {
- 
-		
-		// more complex call
-		$('.flexslider').flexslider({
-			animation: "slide",
-			controlsContainer: ".flex-container",
-			start: function(slider) {
-			$('.total-slides').text(slider.count);
-				},
-				after: function(slider) {
-				$('.current-slide').text(slider.currentSlide);
-				}
-			});
-		 });
-		 </script>
- 
-	<section class="picReel">
-		<!-- Slider Container and Images -->
-			<div class="flexslider">
-				<ul class="slides">
-				<li><img src="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/images/pic1.jpg" /></li>
-				<li><img src="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/images/pic2.jpg" /></li>
-				<li><img src="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/images/pic3.jpg" /></li>
-				<li><img src="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/images/pic4.jpg" /></li>
-				<li><img src="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/images/pic5.jpg" /></li>
-				<li><img src="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/images/pic6.jpg" /></li>
-				
+	 
+	<section class="infoForm">
+		<div class="contactForm">
+				<h2>Get Involved</h2>
+				<h5>Leave your information below, so we can contact you about getting involved in Notre Dame Special Olympics<h5>
+			<form action="somewhere" method="post">
+				<ul>
+					<label><input type="radio" name="Athlete" /> Athlete</label>
+					<label><input type="radio" name="Student" /> ND Student</label>
+					<li><label for="name">Name:</label><input type="text" id="name" name="Name"></li>
+					<li><label for="email">Email:</label><input type="email" id="email" name="Email" placeholder="yourName@gmail.com"></li>
+					<li><label for="phone">Phone:</label><input type="tel" id="phone" name="Phone"></li>
+					<li><label for="comment">Comments:</label><textarea id="comment" name="Comment"></textarea></li>
 				</ul>
-			</div>
+				<input type="reset" value="Clear Form">
+				<input type="submit" value="Submit">
+			</form>
+		</div>
 	</section>
 	
 	
  	
 	<section class="navButtons">
 	
-	
-		<a href="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/getInvolved.html" target="">
+		<a href="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/home.html" target="">
 			<div class="btn1 btn">
-				<center><h1>Get Involved!</h1></center>
+				<center><h1>Home</h1></center>
 			</div>
 		</a>
 		
