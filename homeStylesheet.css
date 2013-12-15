@@ -2,9 +2,13 @@
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 
 @media screen{
+	h1,h2,h3,h4,h5{color:#002b5c;}
 	ul{list-style:none}
 	.infoForm{margin: 1em 1em 0em;  float: left; background-color:#d9d9d9; width: 90%; border: 1px solid #000000; padding: 0em;}
 		.contactForm{padding:1em;}
+		
+	form label{vertical-align: top;display: inline-block; width: 7em;}
+	
 	body{background-color: #002b5c; margin:0em;}
 	img{max-width:100%; vertical-align: top}
 	footer{ padding: .5em 1em 1em; float: left; clear: both; width:100%; background-color: #d9d9d9;  }
