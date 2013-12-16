@@ -11,19 +11,20 @@
 	<link rel="stylesheet" href="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/flex/css/flexslider.css" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/flex/js/jquery.flexslider.js"></script>
-	<script src="js/modernizr.js"></script>
+	
+	<script src="homeScript.js"></script>
  
  </head>
 
  <body>
-	<header>
+	<header role="banner">
 		<div class="titleBar ">
 			<h1 class="site-title">Notre Dame Special Olympics &ndash; Spread the Word to End the Word</h1>
 		</div>
 	</header>
 	
 	<!-- Load the flexslider -->
-	<script type="text/javascript" charset="utf-8">
+	<script type="text/javascript" >
 		$(window).load(function() {
  
 		
@@ -41,16 +42,16 @@
 		 });
 		 </script>
  
-	<section class="picReel">
+	<section class="picReel" >
 		<!-- Slider Container and Images -->
 			<div class="flexslider">
 				<ul class="slides">
-				<li><img src="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/images/pic3.jpg" /></li>
-				<li><img src="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/images/pic4.jpg" /></li>
-				<li><img src="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/images/pic11.jpg" /></li>
-				<li><img src="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/images/pic12.jpg" /></li>
-				<li><img src="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/images/pic13.jpg" /></li>
-				<li><img src="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/images/pic14.jpg" /></li>
+				<li><img class="pics" alt="pic3" src="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/images/pic3.jpg" /></li>
+				<li><img class="pics" alt="pic4" src="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/images/pic4.jpg" /></li>
+				<li><img class="pics" alt="pic11" src="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/images/pic11.jpg" /></li>
+				<li><img class="pics" alt="pic12" src="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/images/pic12.jpg" /></li>
+				<li><img class="pics" alt="pic13" src="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/images/pic13.jpg" /></li>
+				<li><img class="pics" alt="pic14" src="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/images/pic14.jpg" /></li>
 				
 				</ul>
 			</div>
@@ -60,30 +61,30 @@
  	
 	<section class="navButtons">
 	
-		<a href="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/home.html" target="">
+		<a href="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/home.html" >
 			<div class="btn2 btn">
-				<center><h1>Home</h1></center>
+				<h1>Home</h1>
 			</div>
 		</a>
 		
-		<a href="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/getInvolved.html" target="">
+		<a href="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/getInvolved.html">
 			<div class="btn1 btn">
-				<center><h1>Get Involved!</h1></center>
+				<h1>Get Involved!</h1>
 			</div>
 		</a>
-		
-		
-		
-		<a href="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/unifiedSoccer.html" target="">
+				
+		<a href="http://www3.nd.edu/~rhann/capp/CAPP-30370-Final/unifiedSoccer.html" >
 			<div class="btn3 btn">
-				<center><h1>Unified Soccer</h1></center>
+				<h1>Unified Soccer</h1>
 			</div>
 		</a>
 		
 	</section>
 	
+	<main role="main">
+	
 	<section class="oath">
-		<center><img src="images/oath.png" alt="Special Olympics Oath"></center>
+		<img id="pics" src="images/oath.png" alt="Special Olympics Oath">
 	</section>	
 	
 	<section class = 'content'>
@@ -94,14 +95,14 @@
 			<p>The club also sells t&ndash;shirts to raise money for the cause. These shirts are sold at the LaFortune Student Center and Dinning Halls during the Spread the Word to End the Word week each spring.</p>
 		</article>
 		<article class = 'article4 article'>
-			<center><img src="images/oath.png" alt="Special Olympics Oath"></center>
+			<img class="pics" src="images/oath.png" alt="Special Olympics Oath">
 		</article>
 		<article class = 'article2 article'>
 			<h2>Upcoming Events</h2>
-				<h4>September 29th &ndash; Basketball Bash<h4>
-				<h4>October 8th &ndash; The Color Run
+				<h4>September 29th &ndash; Basketball Bash</h4>
+				<h4>October 8th &ndash; The Color Run</h4>
 				<h4>Spring 2013 &ndash; Unified Soccer</h4>
-				<h4>Spring 2013 &ndash; Spread the Word to End the Word<h4>
+				<h4>Spring 2013 &ndash; Spread the Word to End the Word</h4>
 		</article>
 		<article class = 'article3 article'>
 			<h2>Contact Us</h2>
@@ -110,9 +111,22 @@
 		</article>
 	</section>
 	
-	<footer>
-		<p class='footerText'> &copy; 2013 Robert Hann</p>
-		<img src="images/NDSpecialOlympicsLogo.png" class= 'logo' alt="Special Olympics Oath">
+	</main>
+	
+	<footer role="contentinfo">
+	<div class="vcard">
+		<span class="fn">Robert Hann</span>
+		<div class="adr">
+			<div class="street-address">100 Main Building</div>
+			<span class ="locality">Notre Dame</span>
+			<abbr class="region" title="Indiana">ND</abbr>
+			<span class="postal-code">46556</span>
+		</div>
+		<div class="tel">(574)631-5000</div>
+		<a class="email" href="donotreply@nd.edu">donotreply@nd.edu</a>
+	</div>
+		<img  src="images/NDSpecialOlympicsLogo.png" class= 'pics logo' alt="Special Olympics Oath">
+		<div class="copyright"><h3>&copy; 2013 Robert Hann</h3></div>
 	</footer>
 	
  </body>

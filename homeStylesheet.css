@@ -22,7 +22,7 @@
 	.picReel{margin: 1em 1em 0em; padding:5px; float: left; background-color:#d9d9d9; width: 90%; border: 1px solid #000000;}
 
 	.navButtons {float: left; width: 100%;  margin:0em 0em 1em;}
-		.btn{ margin: 1em 1em 0em; float: left; width: 90%;color:#002b5c; background-color:#e8cb69; border: 4px solid #336600; clear: both}
+		.btn{ text-align:center; margin: 1em 1em 0em; float: left; width: 90%;color:#002b5c; background-color:#e8cb69; border: 4px solid #336600; clear: both}
 		.btn:hover{-webkit-animation:blink 1s infinite;}
 	.oath {margin: 0em 1em .5em; float: left; width: 90%; background-color:rgba(255,255,255,0.5); border: 1px solid #000000;}
 
@@ -30,8 +30,9 @@
 		.article{border-bottom:1px solid black;}
 		.article p {color: black;}
 		.article4{display: none; border: none;}
-		
-	.footerText{float:left;}
+	
+	.vcard{float:left;}
+	.copyright{float:right;}
 	.logo{ margin: 0em 1em 0em; float:right; -webkit-animation: spinLogo 3s linear infinite alternate;}
 
 	@-webkit-keyframes spinLogo {

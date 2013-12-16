@@ -23,3 +23,4 @@ The purpose of this site is to inform the Notre Dame community about the ND Spec
  *Each page has a CSS animation that runs on a continuous loop (the shamrock at the bottom right of each page)
  *Each page has a CSS animation that runs on user interaction (the nav buttons that switch color on mouse hover)
  *Each page has a background image at the tablet and desktop size
+ *Each page has a jQuery interaction on the copyright logo in the footer of each page
