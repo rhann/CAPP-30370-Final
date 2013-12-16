@@ -1,11 +1,11 @@
 $(window).ready(function(){
 	console.log('Window Width: ' + $(window).width());
-	//console.log(document.getElementById(window).width());
+	
   });
   
  $(window).resize(function(){
 	console.log('Window Width: ' + $(window).width());
-	//console.log(document.getElementById(window).width());
+	
   });
   
   
@@ -16,11 +16,13 @@ $('.pics').on("click", function(){
 	
 	});
 	
-$(document).children('h').on('click',function(){
-	console.log('clicked');
+$('h1, h2, h3, h4, h5, h6').on('click',function(){
+	console.log('Text: ' + $(this).text());
+	console.log('Color: ' + $(this).css('color'));
+	console.log('Font-size: ' + $(this).css('font-size'));
 });
 	
-$('.copyright').on('click', function(){
+$('.copyright').on('hover', function(){
 	$(this).animate({
 		'border-radius': '14px',
 		'backgroundColor': '#dfba45'},1500);
